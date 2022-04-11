@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TODO LIST</title>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <div class="header-title">
+      <h1>todos</h1>
+    </div>
+    <div class="container-body">
+      <form class="container_form">
+       <input type="text" class="todo-element" id="todo-input" placeholder="What needs to be done?">
+       <button type="submit" class="button" id="btn">Click here</button>
+      </form>
+    </div>
+      <div class="col-mid">
+        <ul id="list" class="todo-list">
+        </ul>
+      </div>
+        <div class="filters">
+            <button class="all" onclick="filterall()">All</button>
+            <button class="active" onclick="filteractive()">Active</button>
+            <button class="Completed" onclick="filtercompleted()">Completed</button>
+            <button class="clear_completed" onclick="filterclearcompleted()">Clear completed</button>
+    </div>
+    <footer class="footer">			
+      <p>Double-click to edit a todo</p>			
+      <p>Created by Oscar Godson</p>			
+      <p>Refactored by Christoph Burgmer</p>			
+      <p>Part of TodoMVC</p>
+    </footer>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

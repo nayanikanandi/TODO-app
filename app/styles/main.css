@@ -1,0 +1,123 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.header-title h1{	
+  font-size: 100px;	
+  font-weight: 100;	
+  text-align: center;	
+  color: rgba(175, 47, 47, 0.15);	
+}
+
+.container_form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-element{
+  padding: 0.5rem 1rem;
+  outline: none;
+  height: 50px;
+  width: 400px;
+  margin: 0.4rem;
+  font-size: 1rem;
+  border:#999;	
+  background: rgba(0, 0, 0, 0.003);	
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+}
+
+.button{
+  font-weight: 300;
+  padding: 0.5rem 1rem;
+  outline: none;
+  height: 45px;
+  border:#999;	
+  outline: 0;
+  background: #ef8dc6;
+  color:rgb(25, 21, 21);
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+::placeholder{
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 40px;
+  color: #575455;
+  opacity: 0.3;
+}
+
+.footer{
+  margin: 65px auto 0;	
+  color: #bfbfbf;	
+  font-size: 15px;	
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);	
+  text-align: center;
+}
+
+.footer p{
+  padding: 5px;
+}
+
+.col-mid,.filters{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li{
+  list-style: none;
+  width: 500px !important;
+  height:40px !important;
+  display: flex;
+  margin-top: 15px;
+  background: rgba(0, 0, 0, 0.003);	
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+
+}
+
+li p{
+  padding: 10px;
+}
+
+.button1{
+  margin-left: auto;
+  background-color:#ef8dc6;
+  color:black;
+  outline: none; 
+  font-size: 1.2rem;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.5rem 1rem;
+  outline: none;
+  height:40px;
+  width: 40px;
+  border: none;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.button2{
+  height:40px;
+  width: 35px;
+}
+
+.all,.active,.Completed,.clear_completed{
+  font-weight:300;
+  padding: 0.5rem 1rem;
+  outline: none;
+  height: 30px;
+  border:#999;
+  border-radius: 5px;	
+  outline: 0;
+  background: #ef8dc6;
+  margin: 15px;
+  color:rgb(25, 21, 21);
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.checked{
+  text-decoration: line-through;
+}
